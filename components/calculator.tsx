@@ -82,7 +82,7 @@ export function CalculatorComponent() {
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
-        <CardTitle>Tính con số kỳ diệu</CardTitle>
+        <CardTitle>Chào mừng bạn đã tham gia lộ trình icSbody!</CardTitle>
       </CardHeader>
       <CardContent>
         <form className="space-y-4">
