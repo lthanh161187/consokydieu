@@ -147,7 +147,7 @@ export function CalculatorComponent() {
               />
             </div>
             <div>
-              <Label className="text-[#EB2B9C]">BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
+              <Label className="font-bold text-[#EB2B9C]">BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
               <Input 
                 value={bmr.toFixed(0)} 
                 readOnly 
@@ -182,7 +182,7 @@ export function CalculatorComponent() {
               </Select>
             </div>
             <div>
-              <Label className="text-[#EB2B9C]">Con số kỳ diệu</Label>
+              <Label className="font-bold text-[#EB2B9C]">Con số kỳ diệu</Label>
               <Input 
                 value={magicNumber.toFixed(0)} 
                 readOnly 
