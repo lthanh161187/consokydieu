@@ -86,7 +86,7 @@ export function CalculatorComponent() {
   return (
     <Card className="w-full max-w-md mx-auto">
         <CardHeader>
-          <CardTitle>Hãy nhớ con số kỳ diệu để có những điều vi diệu trong đời sống.</CardTitle>
+          <CardTitle className='text-center'>Hãy nhớ con số kỳ diệu để có <br /> những điều vi diệu trong đời sống.</CardTitle>
         </CardHeader>
         <CardContent>
           <form className="space-y-4">
@@ -147,7 +147,7 @@ export function CalculatorComponent() {
               />
             </div>
             <div>
-              <Label color='#EB2B9C'>BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
+              <Label className="text-[#EB2B9C]">BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
               <Input 
                 value={bmr.toFixed(0)} 
                 readOnly 
@@ -182,7 +182,7 @@ export function CalculatorComponent() {
               </Select>
             </div>
             <div>
-              <Label color='#EB2B9C'>Con số kỳ diệu</Label>
+              <Label className="text-[#EB2B9C]">Con số kỳ diệu</Label>
               <Input 
                 value={magicNumber.toFixed(0)} 
                 readOnly 
