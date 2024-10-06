@@ -147,24 +147,24 @@ export function CalculatorComponent() {
               />
             </div>
             <div>
-              <Label>BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
+              <Label color='#EB2B9C'>BMR (Tỷ lệ trao đổi chất cơ bản)</Label>
               <Input 
-                value={bmr.toFixed(2)} 
+                value={bmr.toFixed(0)} 
                 readOnly 
-                className="font-bold text-[#41865C]"
+                className="font-bold text-[#EB2B9C]"
               />
             </div>
             <div>
               <Label>AMR (Tỷ lệ trao đổi chất hoạt động)</Label>
-              <Input value={amr.toFixed(2)} readOnly />
+              <Input value={amr.toFixed(0)} readOnly />
             </div>
             <div>
               <Label>TMR (Tổng tỷ lệ trao đổi chất)</Label>
-              <Input value={tmr.toFixed(2)} readOnly />
+              <Input value={tmr.toFixed(0)} readOnly />
             </div>
             <div>
               <Label>Tổng năng lượng tiêu thụ hàng ngày</Label>
-              <Input value={total.toFixed(2)} readOnly />
+              <Input value={total.toFixed(0)} readOnly />
             </div>
             <div>
               <Label>Mục tiêu</Label>
@@ -182,11 +182,11 @@ export function CalculatorComponent() {
               </Select>
             </div>
             <div>
-              <Label>Con số kỳ diệu</Label>
+              <Label color='#EB2B9C'>Con số kỳ diệu</Label>
               <Input 
-                value={magicNumber.toFixed(2)} 
+                value={magicNumber.toFixed(0)} 
                 readOnly 
-                className="font-bold text-[#41865C]"
+                className="font-bold text-[#EB2B9C]"
               />
             </div>
           </form>
